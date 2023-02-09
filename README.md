@@ -96,9 +96,7 @@ source ~/.bashrc
 
 
 해당 방법은 모두 
-```
-https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
-```
+(https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/)
 에 있으며 한글 말로 풀어두었습니다. 
 그리고 자잘한 오류가 있다면 사소한 과정 하나를 빼먹어서 생겼을 가능성이 높고, 이건 구글링으로 직접 찾아보며 해결하는 것이 좋습니다. 
 
