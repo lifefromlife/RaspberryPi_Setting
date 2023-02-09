@@ -15,12 +15,13 @@ ssh ubuntu@ 라즈베리파이 ip
 
 라즈베리파이를 처음 세팅하는 법  (os 설치부터 )
 1. sd 카드를 노트북 or PC에 꽂아야 함. (무난하게 16gb 이상)
-2. 우분투 OS를 다운받기, (https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup 혹은 우분투 홈페이지에서 server-64 파일을 받으면 됨.)
+2. 우분투 OS를 다운받기, 
+(https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup 혹은 우분투 홈페이지에서 server-64 파일을 받으면 됨.)
 3. imager 프로그램 실행. 노트북에 sd카드를 꽂아두기. 
 4. imager 내 '사용자 정의 사용'에서 다운받은 우분투 os 파일을 선택하고, sd 카드 저장소를 선택. 쓰기로 os를 받아주기. 
 
 
-4.5 Disks Utility, Resize the Partition 부분은 https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup에서 가능.
+- Disks Utility, Resize the Partition 부분은 https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup에서 가능.
 (본인은 Resize the Partition만 했음.)
 
 5. 이 때 sd 카드를 다시 노트북에 재접속해주고 
@@ -31,7 +32,8 @@ cd /media/$USER/writable/etc/netplan
 입력 ($USER는 노트북의 pc 사용자 이름을 뜻하는데 제가 썼을 때는 kist)
 
 7. sudo nano 50-cloud-init.yaml 
-(이게 우분투 공식 홈페이지에서는 네트워크 파일 이름이 달라질 수 있습니다. ls는 해당 directory의 패키지들을 볼 수 있으니 해당 파일 명을 검색하시면 됩니다.)
+(이게 우분투 공식 홈페이지에서는 네트워크 파일 이름이 달라질 수 있습니다. 
+ls는 해당 directory의 패키지들을 볼 수 있으니 해당 파일 명을 검색하시면 됩니다.)
 
 
 
@@ -44,7 +46,8 @@ cd /media/$USER/writable/etc/netplan
 처음 모니터에 연결하고 로그인창이 뜨면
 
 ID: ubuntu
-PW: ubuntu or turtlebot (turtlebot emanual 사이트에서 os를 받았으면 turtlebot이고, ubuntu 공식 사이트에서 받았으면 ubuntu 혹은 raspberrypi. 비밀번호 인증 안되면 구글링 필수)
+PW: ubuntu or turtlebot (turtlebot emanual 사이트에서 os를 받았으면 turtlebot이고, 
+ubuntu 공식 사이트에서 받았으면 ubuntu 혹은 raspberrypi. 비밀번호 인증 안되면 구글링 필수)
 
 
 
@@ -75,6 +78,8 @@ ctrl+x로 닫아주고, 수정한 상태로 닫을거냐고 영어로 나오는�
 를 꼭 해주어야 함. 
 
 
-해당 방법은 모두 https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/에 있으며 한글 말로 풀어두었습니다. 그리고 자잘한 오류가 있다면 사소한 과정 하나를 빼먹어서 생겼을 가능성이 높고, 이건 구글링으로 직접 찾아보며 해결하는 것이 좋습니다. 
+해당 방법은 모두 https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
+에 있으며 한글 말로 풀어두었습니다. 
+그리고 자잘한 오류가 있다면 사소한 과정 하나를 빼먹어서 생겼을 가능성이 높고, 이건 구글링으로 직접 찾아보며 해결하는 것이 좋습니다. 
 
 
