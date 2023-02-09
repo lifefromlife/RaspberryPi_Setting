@@ -35,21 +35,6 @@ cd /media/$USER/writable/etc/netplan
 
 
 
-    network:
-      version: 2
-      renderer: networkd
-      ethernets:
-        eth0:
-          dhcp4: yes
-          dhcp6: yes
-          optional: true
-      wifis:
-        wlan0:
-          dhcp4: true
-          dhcp6: true
-          access-points:
-            LVL:
-              password: "kistRMIlvl"
 
 
 제가 사용했던 와이파이 형식입니다. 
