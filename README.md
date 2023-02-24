@@ -21,7 +21,9 @@ ssh ubuntu@ 라즈베리파이 ip
 
 4. imager 내 '사용자 정의 사용'에서 다운받은 우분투 os 파일을 선택하고, sd 카드 저장소를 선택. 쓰기로 os를 받아주기. 
 
-- Disks Utility, Resize the Partition 부분은 (https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup)에서 가능.
+- Disks Utility, Resize the Partition 부분은 
+(https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup)
+에서 가능.
 본인은 Resize the Partition만 했음.
 
 
